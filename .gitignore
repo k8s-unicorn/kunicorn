@@ -1,0 +1,5 @@
+installation/terraform.d
+installation/terraform.tfstate*
+installation/config.tf
+.idea/
+installation/.terraform*

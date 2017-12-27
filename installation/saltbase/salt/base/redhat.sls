@@ -1,0 +1,2 @@
+include:
+  - .redhat-auto-upgrades
