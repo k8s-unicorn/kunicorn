@@ -1,9 +1,7 @@
 ntp:
   pkg:
     - installed
-
 {% if grains['os_family'] == 'Debian' %}
-ntp:
   service.running:
     - watch:
       - pkg: ntp
